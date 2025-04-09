@@ -1,0 +1,52 @@
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav-list a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Body and main content styling */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 60px; /* To prevent navbar from overlapping content */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
